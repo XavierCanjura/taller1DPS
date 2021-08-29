@@ -1,0 +1,37 @@
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.input{
+    position: relative;
+    width: 50%;
+}
+
+.btn-form{
+    margin-left: 5%;
+    width: 45%;
+}
+
+h1{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-container{
+        flex-direction: column;
+    }
+    
+    .input{
+        position: relative;
+        width: 100%;
+    }
+    
+    .btn-form{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5%;
+        height: 40px;
+    }
+}

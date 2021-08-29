@@ -1,0 +1,30 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 2px 16px;
+    margin-bottom: 20px;
+}
+
+.info-producto{
+    flex-direction: column;
+}
+
+.acciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.acciones input{
+    margin-left: 10px;
+}
+
+.acciones button{
+    background-color: red;
+    color: #fff;
+    margin-left: 4px;
+    border-width: 0 !important;
+    padding: 3px 6px !important;
+}
